@@ -132,5 +132,74 @@ Cada equipe fará o upload do seu respectivo material em um ambiente seguro de f
    1. Viabilidade de execução real da solução tecnológica desenvolvida; e
    1. Qualidade do material desenvolvido
 
-DO JULGAMENTO
+**DO JULGAMENTO**
 Como padrão de ética e de forma a garantir a imparcialidade, os integrantes que farão parte da banca julgadora comprometem-se a informar à Comissão Organizadora qualquer forma de conflito de interesse assim que for identificado.
+
+Dias 03 a 14 de Junho de 2019 a banca avaliadora fará análise dos resultados baseados nos critérios citados no site do evento.
+Apresentação
+Problema
+
+(O que é o projeto?)
+O projeto deve comtemplar a visualização e a análise que os dados podem prover. 
+Ex.: Mapa de risco ou software com probabilidade de incidência de asma. 
+
+IMPACTO
+Qual o impacto da análise no melhor entendimento das questões da asma no SUS? A análise apresenta ou sugere soluções que afetem um grande número de pessoas ou uma comunidade específica?
+
+ORIGINALIDADE
+Como a análise abordou os problemas de forma original? 
+Há abordagens semelhantes dentro ou fora do Brasil que agora podem ser comparadas de forma mais precisa? 
+A análise avançou, melhorou, questionou ou negou algum entendimento existente?
+
+DOMÍNIO TÉCNICO
+A análise fez uso de técnicas avançadas ou incomuns? Quais são essas técnicas avançadas?
+Além do uso das funcionalidades prontas, a análise foi sofisticada com o uso de codificação, modelagem matemática, machine learning ou mineração de dados?
+
+QUALIDADE VISUAL
+A análise é de fácil compreensão? 
+A escolha didática para apresentar os resultados foi eficiente? 
+É possível entender os elementos visuais e interpretá-los de maneira intuitiva?
+
+EQUIPE
+Cláudia Sousa – Estudante de Ciências da Computação. Técnica em Enfermagem. 
+Marciel Barros – Professor da UFC
+Renato Furtado – Professor da UFC
+
+dia 18 de junho de 2019, das 14h as 16h, ocorrerá a premiação na sede da GSK Brasil no Rio de Janeiro. Onde somente 01 (um) representante de cada uma das 3 equipes finalistas apresentará aos integrantes da banca julgadora, no modelo de “elevator pitch” (até 3 minutos), a solução desenvolvida. E terão 2 (dois) minutos para responder as dúvidas dos jurados. Os finalistas devem utilizar o próprio laptop/notebook para a apresentação do projeto, sob pena de desclassificação. O espaço disponibilizará rede Wi-Fi para uso dos participantes.
+
+
+
+Referências
+
+Asma atinge 6,4 milhões de brasileiros
+http://www.blog.saude.gov.br/index.php/35040-asma-atinge-6-4-milhoes-de-brasileiros
+
+Consenso de asma sob a forma de um mapa conceitual
+http://www.ginanobrasil.org.br/consenso_asma_mapa_conceitual.pdf
+
+
+The Global Initiative for Asthma (GINA)
+https://ginasthma.org/
+
+https://www.pns.icict.fiocruz.br/
+
+
+http://tabnet.datasus.gov.br/cgi/deftohtm.exe?pns/pnsqc.def
+
+
+O uso do cigarro no Brasil
+
+
+
+Protocolo Clínico e Diretrizes Terapêuticas da Asma. Ministério da Saúde
+Secretaria de Atenção à Saúde. PORTARIA Nº 1.317, DE 25 DE NOVEMBRO DE 2013.
+http://portalarquivos2.saude.gov.br/images/pdf/2014/julho/22/PT-SAS-N---1317-alterado-pela-603-de-21-de-julho-de-2014.pdf?fbclid=IwAR07lRbbdpARX-fQEgXwcyORsNzKHMc_qmZQw-mu2bTJcXO23PKIqPkYa1c
+
+Sociedade Brasileira de Pneumologia e Tisiologia [homepage na internet]. Asma - mitos e verdades [acesso em 28 de janeiro de 2019]. Disponível em: https://sbpt.org.br/…/public…/doencas/asma-mitos-e-verdades/  
+
+Associação Brasileira de Asmáticos São Paulo [homepage na internet]. Perguntas e respostas [acesso em 16 de janeiro de 2019]. Disponível em: http://www.abrasaopaulo.org/perguntas.asp  
+
+Sociedade Brasileira de Pneumologia e Tisiologia. Asma. [acesso em 7 de dezembro de 2018]. Disponível em:https://sbpt.org.br/portal/espaco-saude-respiratoria-asma/
+
+Sociedade Brasileira de Pneumologia e Tisiologia. Asma. [acesso em 05 de dezembro de 2018]. Disponível em:https://sbpt.org.br/portal/espaco-saude-respiratoria-asma 
+
