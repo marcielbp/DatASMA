@@ -203,3 +203,28 @@ Sociedade Brasileira de Pneumologia e Tisiologia. Asma. [acesso em 7 de dezembro
 
 Sociedade Brasileira de Pneumologia e Tisiologia. Asma. [acesso em 05 de dezembro de 2018]. Disponível em:https://sbpt.org.br/portal/espaco-saude-respiratoria-asma 
 
+
+Dalcin PTR, Perin C. Manejo da asma aguda em adultos na sala de emergência: evidências atuais. Rev. Assoc. Med. Bras 2009; 55 (1); 82-88. [Acesso em 31 de out de 2017]. Disponível em: http://dx.doi.org/10.1590/S0104-42302009000100021
+
+
+DATASUS
+MORTALIDADE - BRASIL
+http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/obt10uf.def
+ÓBITOS POR CAUSAS EVITÁVEIS DE 5 A 74 ANOS - BRASIL
+http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/evitb10uf.def
+ÓBITOS POR CAUSAS EVITÁVEIS EM MENORES DE 5 ANOS - BRASIL
+http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/evita10uf.def
+PROJEÇÃO DA POPULAÇÃO DO BRASIL POR SEXO E IDADE SIMPLES: 2000-2060
+http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/projpopbr.def
+PROJEÇÃO DA POPULAÇÃO DAS UNIDADES DA FEDERAÇÃO POR SEXO E GRUPOS DE IDADE: 2000-2030
+http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/projpopuf.def
+Morbidade (SUS)
+http://www2.datasus.gov.br/DATASUS/index.php?area=0203&id=6926
+Prevalência de asma e fatores associados: estudo de base populacional em São Paulo, SP, 2008-2009
+http://www.scielo.br/pdf/rsp/v46n5/09.pdf
+
+
+D3JS ANIMAÇÃO
+https://github.com/d3/d3/wiki/Gallery
+Asma: sintomas, tratamento, causa...
+https://www.google.com/amp/s/www.minhavida.com.br/amp/saude/temas/asma
