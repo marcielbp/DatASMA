@@ -1,0 +1,497 @@
+Codigo;Label
+1;aracaju
+2;belem
+3;belo horizonte
+4;boa vista
+5;campo grande
+6;cuiaba
+7;curitiba
+8;florianopolis
+9;fortaleza
+10;goiania
+11;joao pessoa
+12;macapa
+13;maceio
+14;manaus
+15;natal
+16;palmas
+17;porto alegre
+18;porto velho
+19;recife
+20;rio branco
+21;rio de janeiro
+22;salvador
+23;sao luis
+24;sao paulo
+25;teresina
+26;vitoria
+27;distrito federal
+1;centro-oeste
+2;nordeste
+3;norte
+4;sudeste
+5;sul
+1;masculino
+2;feminino
+1;solteiro
+2;casado legalmente
+3;tem união estável há mais de seis meses
+4;viúvo
+5;separado ou divorciado
+888;não quis informar
+1;curso primário
+2;admissão
+3;curso ginasial ou ginásio
+4;1º grau ou fundamental ou supletivo de 1º grau
+5;2º grau ou colégio ou técnico ou normal ou científico científico ou ensino médio ou supletivo de 2º grau
+6;3º grau ou curso superior
+7;pós-graduação (especialização, mestrado, doutorado)
+8;nunca estudou
+777;não sabe
+888;não quis responder
+1;sim
+2;não
+888;não quis informar
+777;não sabe
+888;não quis informar
+777;não sabe
+888;não quis informar
+1;sim
+2;não
+777;não sabe
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;no almoço (1 vez no dia)
+2;no jantar
+3;no almoço e no jantar (2 vezes no dia)
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;no almoço (1 vez no dia)
+2;no jantar
+3;no almoço e no jantar (2 vezes no dia)
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;tirar sempre o excesso de gordura
+2;comer com a gordura
+3;não come carne vermelha com muita gordura
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;tirar sempre a pele
+2;comer com a pele
+3;não come pedaços de frango com pele
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;1 copo
+2;2 copos
+3;3 ou mais copos
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;1 vez no dia
+2;2 vezes no dia
+3;3 ou mais vezes no dia
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;normal
+2;diet/ light/ zero
+3;ambos
+1;1 copo/latinha por dia
+2;2 copos/latinhas por dia
+3;3 copos/latinhas por dia
+4;4 copos/latinhas por dia
+5;5 copos/latinhas por dia
+6;6 ou mais copos/latinhas por dia
+777;não sabe
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;integral
+2;desnatado ou semi-desnatado
+3;os dois tipos
+777;não sabe
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;1 vez no dia
+2;2 vezes no dia
+3;3 ou mais vezes no dia
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;quase nunca
+6;nunca
+1;sim
+2;não
+888;não quis informar
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+5;menos de 1 dia por semana
+6;menos de 1 dia por mês
+1;sim
+2;não
+1;sim
+2;não
+1;em um único dia no mês
+2;em 2 dias
+3;em 3 dias
+4;em 4 dias
+5;em 5 dias
+6;em 6 dias
+7;em 7 ou mais dias
+777;não sabe
+1;sim
+2;não
+888;não quis informar
+1;sempre
+2;algumas vezes
+3;quase nunca
+4;nunca
+888;não quis informar
+1;sim
+2;não
+1;caminhada (não vale deslocamento para trabalho)
+2;caminhada em esteira
+3;corrida (cooper)
+4;corrida em esteira
+5;musculação
+6;ginástica aeróbica (spinning, step, jump)
+7;hidroginástica
+8;ginástica em geral (alongamento, pilates, ioga)
+9;natação
+10;artes marciais e luta (jiu-jitsu, karatê, judô, boxe, muay thai, capoeira)
+11;bicicleta (inclui ergométrica)
+12;futebol/futsal
+13;basquetebol
+14;voleibol/futevolei
+15;tênis
+16;dança (balé, dança de salão, dança do ventre)
+17;outros
+1;sim
+2;não
+1;1 a 2 dias por semana
+2;3 a 4 dias por semana
+3;5 a 6 dias por semana
+4;todos os dias ( inclusive sábado e domingo)
+1;menos que 10 minutos
+2;entre 10 e 19 minutos
+3;entre 20 e 29 minutos
+4;entre 30 e 39 minutos
+5;entre 40 e 49 minutos
+6;entre 50 e 59 minutos
+7;60 minutos ou mais
+1;sim
+2;não
+1;sim
+2;não
+777;não sabe
+1;sim
+2;não
+777;não sabe
+555;menos de uma vez na semana
+888;não quis responder
+1;sim, todo o trajeto
+2;sim, parte do trajeto
+3;não
+1;menos que 10 minutos
+2;entre 10 e 19 minutos
+3;entre 20 e 29 minutos
+4;entre 30 e 39 minutos
+5;entre 40 e 49 minutos
+6;entre 50 e 59 minutos
+7;60 minutos ou mais
+1;sim
+2;não
+888;não quis informar
+1;sim, todo o trajeto
+2;sim, parte do trajeto
+3;não
+1;menos que 10 minutos
+2;entre 10 e 19 minutos
+3;entre 20 e 29 minutos
+4;entre 30 e 39 minutos
+5;entre 40 e 49 minutos
+6;entre 50 e 59 minutos
+7;60 minutos ou mais
+1;eu sozinho
+2;eu com outra pessoa
+3;outra pessoa
+1;o(a) sr(a)
+2;outra pessoa
+3;ambos
+555;menos de uma vez por semana
+888;não quis responder
+1;menos de 1 hora
+2;entre 1 e 2 horas
+3;entre 2 e 3 horas
+4;entre 3 e 4 horas
+5;entre 4 e 5 horas
+6;entre 5 e 6 horas
+7;mais de 6 horas
+8;não assiste televisão
+1;sim
+2;não
+777;não sabe
+1;menos de 1 hora
+2;entre 1 e 2 horas
+3;entre 2 e 3 horas
+4;entre 3 e 4 horas
+5;entre 4 e 5 horas
+6;entre 5 e 6 horas
+7;mais de 6 horas
+1;sim, diariamente
+2;sim, mas não diariamente
+3;não
+1;01 a 04
+2;05 a 09
+3;10 a 14
+4;15 a 19
+5;20 a 29
+6;30 a 39
+7;40 ou mais
+888;não sabe/não quis responder
+1;01 a 04
+2;05 a 09
+3;10 a 14
+4;15 a 19
+5;20 a 29
+6;30 a 39
+7;40 ou mais
+888;não sabe/não quis responder
+777;não lembra
+1;sim
+2;não
+1;sim, diariamente
+2;sim, mas não diariamente
+3;não
+1;sim
+2;não
+888;não quis informar
+1;sim
+2;não
+888;não quis informar
+1;sim
+2;não
+888;não quis informar
+1;branca
+2;preta
+3;amarela
+4;parda
+5;indígena
+777;não sabe
+888;não quis informar
+1;sim
+2;não
+2;2 linhas
+3;3 linhas
+4;4 linhas
+5;5 linhas
+1;muito bom
+2;bom
+3;regular
+4;ruim
+5;muito ruim
+777;não sabe
+888;não quis informar
+1;sim
+2;não
+777;não lembra
+1;sim
+2;não
+777;não lembra
+1;sim
+2;não
+777;não sabe
+888;não quis responder
+1;unidade de saude do SUS
+2;Farmácia Popular
+3;outro lugar
+777;não sabe
+888;não quis responder
+1;unidade de saude do SUS
+2;Farmácia Popular do Governo Federal
+3;outro lugar (farmácia privada/particular, drogaria)
+777;não sabe
+888;não quis responder
+1;sim
+2;não
+777;não lembra
+1;sim
+2;não
+3;nunca engravidou
+777;não lembra
+777;não sabe / não lembra
+1;sim
+2;não
+777;não lembra
+1;sim
+2;não
+777;não sabe
+888;não quis responder
+1;unidade de saúde do sus
+2;farmácia popular do governo  federal
+3;outro lugar (farmácia privada/particular, drogaria
+777;não sabe
+888;não quis responder
+1;sim
+2;não
+777;não sabe
+888;não quis responder
+1;unidade de saúde do sus
+2;farmácia popular do governo  federal
+3;outro lugar (farmácia privada/particular, drogaria
+777;não sabe
+888;não quis responder
+1;sim
+2;não
+777;não sabe/não lembra
+1;sim
+2;não
+777;não sabe
+1;menos de 1 ano
+2;entre 1 e 2 anos
+3;entre 2 e 3 anos
+4;entre 3 e 5 anos
+5;5 anos ou mais
+777;não lembra
+1;sim
+2;não
+777;não sabe
+1;menos de 1 ano
+2;entre 1 e 2 anos
+3;entre 2 e 3 anos
+4;entre 3 e 5 anos
+5;5 ou mais anos
+777;não lembra
+1;sim, apenas 1
+2;sim, mais de um
+3;não
+888;não quis informar
+1;sim
+2;não
+777;não lembra
+888;não quis responder
+1;dentro da cidade (via urbana)
+2;rodovia
+3;ambos
+777;não lembra
+888;não quis responder
+1;sim
+2;não
+777;não lembra
+888;não quis responder
+1;sim
+2;não
+777;não lembra
+888;não quis responder
+1;sim
+2;não
+777;não lembra
+888;não quis responder
+1;sim
+2;não
+777;não lembra
+888;não quis responder
+1;sim
+2;não
+777;não lembra
+888;não quis responder
+1;sim
+2;não
+777;não sabe
+1;sim
+2;não
+777;não sabe
+888;não quis responder
+1;não tinha/estava em falta no posto de saúde/unidade de  saúde/secretaria de saúde/sus
+2; porque não tinha dinheiro para comprar
+3; esqueceu/não quis tomar/comprar/buscar
+4;outro motivo
+777;não sabe
+888;não quis responder
+1;sim
+2;não
+777;não sabe
+888;não quis responder
+1;não tinha/estava em falta no posto de saúde/unidade de  saúde/secretaria de saúde/sus
+2; porque não tinha dinheiro para comprar
+3; esqueceu/não quis tomar/comprar/buscar
+4;outro motivo
+777;não sabe
+888;não quis responder
+1;sim
+2;não
+777;não sabe
+888;não quis responder
+1;não tinha/estava em falta no posto de saúde/unidade de  saúde/secretaria de saúde/sus
+2; porque não tinha dinheiro para comprar
+3; esqueceu/não quis tomar/comprar/buscar
+4;outro motivo
+777;não sabe
+888;não quis responder
+1;18 a 24
+2;25 a 34 anos
+3;35 a 44 anos
+4;45 a 54 anos
+5;55 a 64 anos
+6;65 anos e mais
+1;0 a 8 anos
+2;9 a 11 anos
+3;12 anos e mais
+1;0 a 7,9 anos
+2;8 a 10,9 anos
+3;11 a 14,9 anos
+4;15 a 20 anos

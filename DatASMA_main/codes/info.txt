@@ -1,0 +1,6 @@
+https://www.statsilk.com/maps/convert-esri-shapefile-map-geojson-format
+https://rsandstroem.github.io/GeoMapsFoliumDemo.html
+https://towardsdatascience.com/a-complete-guide-to-an-interactive-geographical-map-using-python-f4c5197e23e0
+
+https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-1/
+https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/
