@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import re
 from collections import Counter
+import numpy as np
 '''
 J450,
 J45.1 Asma nao-alergica                            J451,
@@ -25,8 +26,21 @@ causaBase.fillna(0)
 #print(causaBase)
 #CID10_09
 
-obLA = causaBase[causaBase['LINHAA'].str.contains('J45')]
-numObRespLA = obLA.count()[0]
+obLA = causaBase['LINHAA'].str.contains('J45')
+numObRespLA = sum(obLA == True)
+#print(numObRespLA)
+obLB = causaBase['LINHAB'].str.contains('J45')
+numObRespLB = sum(obLB == True)
+#print(numObRespLB)
+obLC = causaBase['LINHAC'].str.contains('J45')
+numObRespLC = sum(obLB == True)
+#print(numObRespLC)
+obLD = causaBase['LINHAD'].str.contains('J45')
+numObRespLD = sum(obLB == True)
+#print(numObRespLD)
+obLII = causaBase['LINHAII'].str.contains('J45')
+numObRespLII = sum(obLB == True)
+#print(numObRespLII)
 '''
 obLB = causaBase[causaBase['LINHAB'].str.contains('J')]
 numObRespLB = obLB.count()[0]
@@ -42,11 +56,25 @@ obResp = causaBase[causaBase['CAUSABAS'].str.contains('J')]
 obAsma = causaBase[causaBase['CAUSABAS'].str.contains('J45')]
 numObResp = obResp.count()[0]
 numObAsma = obAsma.count()[0]
+
+agesAsma = dataSet['IDADE'][causaBase['CAUSABAS'].str.contains('J45')]
+logic =  np.logical_and(agesAsma>400,agesAsma<500)
+agesAsmaCount = agesAsma[logic]-400
+#agesAsmaCount = agesAsma[logic]# and (agesAsma<500)
+#print(agesAsmaCount)
 # print(Counter(causaBase['CAUSABAS']).most_common())
 print("Obitos totais", numOb)
 print("Obitos doencas Resp:", numObResp)
 print("Obitos Asma:", numObAsma)
-print("Obitos Asma LA:", numObRespLA)
+#print("Obitos Asma LA:", numObRespLA)
+plt.hist(agesAsmaCount,label='Idade',rwidth=0.85,color='r')
+plt.legend(loc='upper right')
+plt.title('Histograma de Óbitos por ASMA por IDADE')
+plt.xlabel('Idade')
+plt.ylabel('Número de Óbitos')
+#plt.show() # para apenas exibir, sem salvar, comente as proximas duas linhas e descomente esta
+plt.savefig('histograma01.png')
+plt.close()
 '''
 print("Obitos Resp LA:", numObRespLA)
 print("Obitos Resp LB:", numObRespLB)
