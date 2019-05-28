@@ -1,0 +1,529 @@
+Variable name;storage type;display format;value label ;Variable label;Código;Label
+chave;str11;%11s;value label ;chave;Código;Label
+replica;byte;%8.0g;value label ;replica;Código;Label
+ano;int;%8.0g;value label ;ano;Código;Label
+mesfim;str2;%2s;value label ;mes;Código;Label
+cidade;byte;%8.0g;cidade;cidade;1;aracaju
+cidade;byte;%8.0g;cidade;cidade;2;belem
+cidade;byte;%8.0g;cidade;cidade;3;belo horizonte
+cidade;byte;%8.0g;cidade;cidade;4;boa vista
+cidade;byte;%8.0g;cidade;cidade;5;campo grande
+cidade;byte;%8.0g;cidade;cidade;6;cuiaba
+cidade;byte;%8.0g;cidade;cidade;7;curitiba
+cidade;byte;%8.0g;cidade;cidade;8;florianopolis
+cidade;byte;%8.0g;cidade;cidade;9;fortaleza
+cidade;byte;%8.0g;cidade;cidade;10;goiania
+cidade;byte;%8.0g;cidade;cidade;11;joao pessoa
+cidade;byte;%8.0g;cidade;cidade;12;macapa
+cidade;byte;%8.0g;cidade;cidade;13;maceio
+cidade;byte;%8.0g;cidade;cidade;14;manaus
+cidade;byte;%8.0g;cidade;cidade;15;natal
+cidade;byte;%8.0g;cidade;cidade;16;palmas
+cidade;byte;%8.0g;cidade;cidade;17;porto alegre
+cidade;byte;%8.0g;cidade;cidade;18;porto velho
+cidade;byte;%8.0g;cidade;cidade;19;recife
+cidade;byte;%8.0g;cidade;cidade;20;rio branco
+cidade;byte;%8.0g;cidade;cidade;21;rio de janeiro
+cidade;byte;%8.0g;cidade;cidade;22;salvador
+cidade;byte;%8.0g;cidade;cidade;23;sao luis
+cidade;byte;%8.0g;cidade;cidade;24;sao paulo
+cidade;byte;%8.0g;cidade;cidade;25;teresina
+cidade;byte;%8.0g;cidade;cidade;26;vitoria
+cidade;byte;%8.0g;cidade;cidade;27;distrito federal
+regiao;byte;%8.0g;regiao;regiao;1;centro-oeste
+regiao;byte;%8.0g;regiao;regiao;2;nordeste
+regiao;byte;%8.0g;regiao;regiao;3;norte
+regiao;byte;%8.0g;regiao;regiao;4;sudeste
+regiao;byte;%8.0g;regiao;regiao;5;sul
+bairro;byte;%8.0g;regiao;bairro;5;sul
+data_ini;str10;%10s;regiao;data inÍcio;5;sul
+hora_ini;str8;%8s;regiao;hora inÍcio;5;sul
+data_fim;str10;%10s;regiao;data fim;5;sul
+hora_fim;str8;%8s;regiao;hora fim;5;sul
+duracao;str8;%8s;regiao;duração;5;sul
+operador;str42;%42s;regiao;operador;5;sul
+operadora;byte;%8.0g;regiao;operadora;5;sul
+q6;int;%8.0g;regiao;idade (anos);5;sul
+q7;byte;%8.0g;q7;sexo;1;masculino
+q7;byte;%8.0g;q7;sexo;2;feminino
+civil;int;%8.0g;civil;estado conjugal atual;1;solteiro
+civil;int;%8.0g;civil;estado conjugal atual;2;casado legalmente
+civil;int;%8.0g;civil;estado conjugal atual;3;tem união estável há mais de seis meses
+civil;int;%8.0g;civil;estado conjugal atual;4;viúvo
+civil;int;%8.0g;civil;estado conjugal atual;5;separado ou divorciado
+civil;int;%8.0g;civil;estado conjugal atual;888;não quis informar
+q8a;int;%8.0g;q8a;q8a-grau;1;curso primário
+q8a;int;%8.0g;q8a;q8a-grau;2;admissão
+q8a;int;%8.0g;q8a;q8a-grau;3;curso ginasial ou ginásio
+q8a;int;%8.0g;q8a;q8a-grau;4;1º grau ou fundamental ou supletivo de 1º grau
+q8a;int;%8.0g;q8a;q8a-grau;5;2º grau ou colégio ou técnico ou normal ou científico científico ou ensino médio ou supletivo de 2º grau
+q8a;int;%8.0g;q8a;q8a-grau;6;3º grau ou curso superior
+q8a;int;%8.0g;q8a;q8a-grau;7;pós-graduação (especialização, mestrado, doutorado)
+q8a;int;%8.0g;q8a;q8a-grau;8;nunca estudou
+q8a;int;%8.0g;q8a;q8a-grau;777;não sabe
+q8a;int;%8.0g;q8a;q8a-grau;888;não quis responder
+q8b;byte;%8.0g;q8a;q8b-série (ano);888;não quis responder
+q8_anos;byte;%8.0g;q8a;anos de estudo;888;não quis responder
+r128a;int;%8.0g;r128a;dirige;1;sim
+r128a;int;%8.0g;r128a;dirige;2;não
+r128a;int;%8.0g;r128a;dirige;888;não quis informar
+q9;float;%9.0g;LABB;peso (kg);777;não sabe
+q9;float;%9.0g;LABB;peso (kg);888;não quis informar
+q11;int;%8.0g;LABB;altura (cm);777;não sabe
+q11;int;%8.0g;LABB;altura (cm);888;não quis informar
+q14;int;%8.0g;q14;gravidez;1;sim
+q14;int;%8.0g;q14;gravidez;2;não
+q14;int;%8.0g;q14;gravidez;777;não sabe
+q15;byte;%8.0g;LABC;feijão;1;1 a 2 dias por semana
+q15;byte;%8.0g;LABC;feijão;2;3 a 4 dias por semana
+q15;byte;%8.0g;LABC;feijão;3;5 a 6 dias por semana
+q15;byte;%8.0g;LABC;feijão;4;todos os dias ( inclusive sábado e domingo)
+q15;byte;%8.0g;LABC;feijão;5;quase nunca
+q15;byte;%8.0g;LABC;feijão;6;nunca
+q16;byte;%8.0g;LABC;freq horta;1;1 a 2 dias por semana
+q16;byte;%8.0g;LABC;freq horta;2;3 a 4 dias por semana
+q16;byte;%8.0g;LABC;freq horta;3;5 a 6 dias por semana
+q16;byte;%8.0g;LABC;freq horta;4;todos os dias ( inclusive sábado e domingo)
+q16;byte;%8.0g;LABC;freq horta;5;quase nunca
+q16;byte;%8.0g;LABC;freq horta;6;nunca
+q17;byte;%8.0g;LABC;freq horta crua;1;1 a 2 dias por semana
+q17;byte;%8.0g;LABC;freq horta crua;2;3 a 4 dias por semana
+q17;byte;%8.0g;LABC;freq horta crua;3;5 a 6 dias por semana
+q17;byte;%8.0g;LABC;freq horta crua;4;todos os dias ( inclusive sábado e domingo)
+q17;byte;%8.0g;LABC;freq horta crua;5;quase nunca
+q17;byte;%8.0g;LABC;freq horta crua;6;nunca
+q18;byte;%8.0g;LABD;quantas vezes;1;no almoço (1 vez no dia)
+q18;byte;%8.0g;LABD;quantas vezes;2;no jantar
+q18;byte;%8.0g;LABD;quantas vezes;3;no almoço e no jantar (2 vezes no dia)
+q19;byte;%8.0g;LABC;freq horta cozida;1;1 a 2 dias por semana
+q19;byte;%8.0g;LABC;freq horta cozida;2;3 a 4 dias por semana
+q19;byte;%8.0g;LABC;freq horta cozida;3;5 a 6 dias por semana
+q19;byte;%8.0g;LABC;freq horta cozida;4;todos os dias ( inclusive sábado e domingo)
+q19;byte;%8.0g;LABC;freq horta cozida;5;quase nunca
+q19;byte;%8.0g;LABC;freq horta cozida;6;nunca
+q20;byte;%8.0g;LABD;quantas vezes;1;no almoço (1 vez no dia)
+q20;byte;%8.0g;LABD;quantas vezes;2;no jantar
+q20;byte;%8.0g;LABD;quantas vezes;3;no almoço e no jantar (2 vezes no dia)
+q21;byte;%8.0g;LABC;come carne;1;1 a 2 dias por semana
+q21;byte;%8.0g;LABC;come carne;2;3 a 4 dias por semana
+q21;byte;%8.0g;LABC;come carne;3;5 a 6 dias por semana
+q21;byte;%8.0g;LABC;come carne;4;todos os dias ( inclusive sábado e domingo)
+q21;byte;%8.0g;LABC;come carne;5;quase nunca
+q21;byte;%8.0g;LABC;come carne;6;nunca
+q22;byte;%8.0g;q22;gordura carne;1;tirar sempre o excesso de gordura
+q22;byte;%8.0g;q22;gordura carne;2;comer com a gordura
+q22;byte;%8.0g;q22;gordura carne;3;não come carne vermelha com muita gordura
+q23;byte;%8.0g;LABC;come frango;1;1 a 2 dias por semana
+q23;byte;%8.0g;LABC;come frango;2;3 a 4 dias por semana
+q23;byte;%8.0g;LABC;come frango;3;5 a 6 dias por semana
+q23;byte;%8.0g;LABC;come frango;4;todos os dias ( inclusive sábado e domingo)
+q23;byte;%8.0g;LABC;come frango;5;quase nunca
+q23;byte;%8.0g;LABC;come frango;6;nunca
+q24;byte;%8.0g;q24;pele de frango;1;tirar sempre a pele
+q24;byte;%8.0g;q24;pele de frango;2;comer com a pele
+q24;byte;%8.0g;q24;pele de frango;3;não come pedaços de frango com pele
+q25;byte;%8.0g;LABC;suco frutas;1;1 a 2 dias por semana
+q25;byte;%8.0g;LABC;suco frutas;2;3 a 4 dias por semana
+q25;byte;%8.0g;LABC;suco frutas;3;5 a 6 dias por semana
+q25;byte;%8.0g;LABC;suco frutas;4;todos os dias ( inclusive sábado e domingo)
+q25;byte;%8.0g;LABC;suco frutas;5;quase nunca
+q25;byte;%8.0g;LABC;suco frutas;6;nunca
+q26;byte;%8.0g;q26;quanto suco;1;1 copo
+q26;byte;%8.0g;q26;quanto suco;2;2 copos
+q26;byte;%8.0g;q26;quanto suco;3;3 ou mais copos
+q27;byte;%8.0g;LABC;freq fruta;1;1 a 2 dias por semana
+q27;byte;%8.0g;LABC;freq fruta;2;3 a 4 dias por semana
+q27;byte;%8.0g;LABC;freq fruta;3;5 a 6 dias por semana
+q27;byte;%8.0g;LABC;freq fruta;4;todos os dias ( inclusive sábado e domingo)
+q27;byte;%8.0g;LABC;freq fruta;5;quase nunca
+q27;byte;%8.0g;LABC;freq fruta;6;nunca
+q28;byte;%8.0g;q28;quantas vezes;1;1 vez no dia
+q28;byte;%8.0g;q28;quantas vezes;2;2 vezes no dia
+q28;byte;%8.0g;q28;quantas vezes;3;3 ou mais vezes no dia
+q29;byte;%8.0g;LABC;freq refrigerante;1;1 a 2 dias por semana
+q29;byte;%8.0g;LABC;freq refrigerante;2;3 a 4 dias por semana
+q29;byte;%8.0g;LABC;freq refrigerante;3;5 a 6 dias por semana
+q29;byte;%8.0g;LABC;freq refrigerante;4;todos os dias ( inclusive sábado e domingo)
+q29;byte;%8.0g;LABC;freq refrigerante;5;quase nunca
+q29;byte;%8.0g;LABC;freq refrigerante;6;nunca
+q30;byte;%8.0g;q30;que tipo;1;normal
+q30;byte;%8.0g;q30;que tipo;2;diet/ light/ zero
+q30;byte;%8.0g;q30;que tipo;3;ambos
+q31;int;%8.0g;q31;qtdd refrigerante;1;1 copo/latinha por dia
+q31;int;%8.0g;q31;qtdd refrigerante;2;2 copos/latinhas por dia
+q31;int;%8.0g;q31;qtdd refrigerante;3;3 copos/latinhas por dia
+q31;int;%8.0g;q31;qtdd refrigerante;4;4 copos/latinhas por dia
+q31;int;%8.0g;q31;qtdd refrigerante;5;5 copos/latinhas por dia
+q31;int;%8.0g;q31;qtdd refrigerante;6;6 ou mais copos/latinhas por dia
+q31;int;%8.0g;q31;qtdd refrigerante;777;não sabe
+q32;byte ;%8.0g;LABC;freqüência de leite;1;1 a 2 dias por semana
+q32;byte ;%8.0g;LABC;freqüência de leite;2;3 a 4 dias por semana
+q32;byte ;%8.0g;LABC;freqüência de leite;3;5 a 6 dias por semana
+q32;byte ;%8.0g;LABC;freqüência de leite;4;todos os dias ( inclusive sábado e domingo)
+q32;byte ;%8.0g;LABC;freqüência de leite;5;quase nunca
+q32;byte ;%8.0g;LABC;freqüência de leite;6;nunca
+q33;int;%8.0g;q33;tipo de leite;1;integral
+q33;int;%8.0g;q33;tipo de leite;2;desnatado ou semi-desnatado
+q33;int;%8.0g;q33;tipo de leite;3;os dois tipos
+q33;int;%8.0g;q33;tipo de leite;777;não sabe
+r143;byte;%8.0g;LABC;doces;1;1 a 2 dias por semana
+r143;byte;%8.0g;LABC;doces;2;3 a 4 dias por semana
+r143;byte;%8.0g;LABC;doces;3;5 a 6 dias por semana
+r143;byte;%8.0g;LABC;doces;4;todos os dias ( inclusive sábado e domingo)
+r143;byte;%8.0g;LABC;doces;5;quase nunca
+r143;byte;%8.0g;LABC;doces;6;nunca
+r146;byte;%8.0g;r146;quantas vezes come doce por dia;1;1 vez no dia
+r146;byte;%8.0g;r146;quantas vezes come doce por dia;2;2 vezes no dia
+r146;byte;%8.0g;r146;quantas vezes come doce por dia;3;3 ou mais vezes no dia
+r144a;byte;%8.0g;LABC;troca almoço;1;1 a 2 dias por semana
+r144a;byte;%8.0g;LABC;troca almoço;2;3 a 4 dias por semana
+r144a;byte;%8.0g;LABC;troca almoço;3;5 a 6 dias por semana
+r144a;byte;%8.0g;LABC;troca almoço;4;todos os dias ( inclusive sábado e domingo)
+r144a;byte;%8.0g;LABC;troca almoço;5;quase nunca
+r144a;byte;%8.0g;LABC;troca almoço;6;nunca
+r144b;byte;%8.0g;LABC;troca jantar;1;1 a 2 dias por semana
+r144b;byte;%8.0g;LABC;troca jantar;2;3 a 4 dias por semana
+r144b;byte;%8.0g;LABC;troca jantar;3;5 a 6 dias por semana
+r144b;byte;%8.0g;LABC;troca jantar;4;todos os dias ( inclusive sábado e domingo)
+r144b;byte;%8.0g;LABC;troca jantar;5;quase nunca
+r144b;byte;%8.0g;LABC;troca jantar;6;nunca
+q35;int;%8.0g;q35;bebida alcoólica;1;sim
+q35;int;%8.0g;q35;bebida alcoólica;2;não
+q35;int;%8.0g;q35;bebida alcoólica;888;não quis informar
+q36;byte;%8.0g;q36;freq alcool;1;1 a 2 dias por semana
+q36;byte;%8.0g;q36;freq alcool;2;3 a 4 dias por semana
+q36;byte;%8.0g;q36;freq alcool;3;5 a 6 dias por semana
+q36;byte;%8.0g;q36;freq alcool;4;todos os dias ( inclusive sábado e domingo)
+q36;byte;%8.0g;q36;freq alcool;5;menos de 1 dia por semana
+q36;byte;%8.0g;q36;freq alcool;6;menos de 1 dia por mês
+q37;byte;%8.0g;LABE;5 doses (homem);1;sim
+q37;byte;%8.0g;LABE;5 doses (homem);2;não
+q38;byte;%8.0g;LABE;4 doses (mulher);1;sim
+q38;byte;%8.0g;LABE;4 doses (mulher);2;não
+q39;int;%8.0g;q39;quantos dias;1;em um único dia no mês
+q39;int;%8.0g;q39;quantos dias;2;em 2 dias
+q39;int;%8.0g;q39;quantos dias;3;em 3 dias
+q39;int;%8.0g;q39;quantos dias;4;em 4 dias
+q39;int;%8.0g;q39;quantos dias;5;em 5 dias
+q39;int;%8.0g;q39;quantos dias;6;em 6 dias
+q39;int;%8.0g;q39;quantos dias;7;em 7 ou mais dias
+q39;int;%8.0g;q39;quantos dias;777;não sabe
+r200;int;%8.0g;r200;num máximo de doses;777;não sabe
+q40;int;%8.0g;q40;dirigiu após beber;1;sim
+q40;int;%8.0g;q40;dirigiu após beber;2;não
+q40;int;%8.0g;q40;dirigiu após beber;888;não quis informar
+q40b;int;%8.0g;q40b;independente da quantidade;1;sempre
+q40b;int;%8.0g;q40b;independente da quantidade;2;algumas vezes
+q40b;int;%8.0g;q40b;independente da quantidade;3;quase nunca
+q40b;int;%8.0g;q40b;independente da quantidade;4;nunca
+q40b;int;%8.0g;q40b;independente da quantidade;888;não quis informar
+q42;byte;%8.0g;LABE;exercício físico;1;sim
+q42;byte;%8.0g;LABE;exercício físico;2;não
+q43a;byte;%8.0g;q43a;qual;1;caminhada (não vale deslocamento para trabalho)
+q43a;byte;%8.0g;q43a;qual;2;caminhada em esteira
+q43a;byte;%8.0g;q43a;qual;3;corrida (cooper)
+q43a;byte;%8.0g;q43a;qual;4;corrida em esteira
+q43a;byte;%8.0g;q43a;qual;5;musculação
+q43a;byte;%8.0g;q43a;qual;6;ginástica aeróbica (spinning, step, jump)
+q43a;byte;%8.0g;q43a;qual;7;hidroginástica
+q43a;byte;%8.0g;q43a;qual;8;ginástica em geral (alongamento, pilates, ioga)
+q43a;byte;%8.0g;q43a;qual;9;natação
+q43a;byte;%8.0g;q43a;qual;10;artes marciais e luta (jiu-jitsu, karatê, judô, boxe, muay thai, capoeira)
+q43a;byte;%8.0g;q43a;qual;11;bicicleta (inclui ergométrica)
+q43a;byte;%8.0g;q43a;qual;12;futebol/futsal
+q43a;byte;%8.0g;q43a;qual;13;basquetebol
+q43a;byte;%8.0g;q43a;qual;14;voleibol/futevolei
+q43a;byte;%8.0g;q43a;qual;15;tênis
+q43a;byte;%8.0g;q43a;qual;16;dança (balé, dança de salão, dança do ventre)
+q43a;byte;%8.0g;q43a;qual;17;outros
+q44;byte;%8.0g;LABE ;pratica exercicio 1 vez na semana;1;sim
+q44;byte;%8.0g;LABE ;pratica exercicio 1 vez na semana;2;não
+q45;byte;%8.0g;q45;freq exercicio;1;1 a 2 dias por semana
+q45;byte;%8.0g;q45;freq exercicio;2;3 a 4 dias por semana
+q45;byte;%8.0g;q45;freq exercicio;3;5 a 6 dias por semana
+q45;byte;%8.0g;q45;freq exercicio;4;todos os dias ( inclusive sábado e domingo)
+q46;byte;%8.0g;LABF;duração exercicio;1;menos que 10 minutos
+q46;byte;%8.0g;LABF;duração exercicio;2;entre 10 e 19 minutos
+q46;byte;%8.0g;LABF;duração exercicio;3;entre 20 e 29 minutos
+q46;byte;%8.0g;LABF;duração exercicio;4;entre 30 e 39 minutos
+q46;byte;%8.0g;LABF;duração exercicio;5;entre 40 e 49 minutos
+q46;byte;%8.0g;LABF;duração exercicio;6;entre 50 e 59 minutos
+q46;byte;%8.0g;LABF;duração exercicio;7;60 minutos ou mais
+q47;byte;%8.0g;LABE;trabalha;1;sim
+q47;byte;%8.0g;LABE;trabalha;2;não
+q48;int;%8.0g;LABG;anda bastante a pé;1;sim
+q48;int;%8.0g;LABG;anda bastante a pé;2;não
+q48;int;%8.0g;LABG;anda bastante a pé;777;não sabe
+q49;int;%8.0g;LABG;carrega peso;1;sim
+q49;int;%8.0g;LABG;carrega peso;2;não
+q49;int;%8.0g;LABG;carrega peso;777;não sabe
+r147;int;%8.0g;r147;quantos dias faz essas atividades no trabalho;555;menos de uma vez na semana
+r147;int;%8.0g;r147;quantos dias faz essas atividades no trabalho;888;não quis responder
+r148_hh;float;%9.0g;LABH;tempo de duração das atividades/ horas;888;não quis responder
+r148_mm;int;%8.0g;LABH;tempo de duração das atividades/ minutos;888;não quis responder
+q50;byte;%8.0g;LABI;trajeto a pe ou bicicleta;1;sim, todo o trajeto
+q50;byte;%8.0g;LABI;trajeto a pe ou bicicleta;2;sim, parte do trajeto
+q50;byte;%8.0g;LABI;trajeto a pe ou bicicleta;3;não
+q51;byte;%8.0g;LABF;duração do trajeto;1;menos que 10 minutos
+q51;byte;%8.0g;LABF;duração do trajeto;2;entre 10 e 19 minutos
+q51;byte;%8.0g;LABF;duração do trajeto;3;entre 20 e 29 minutos
+q51;byte;%8.0g;LABF;duração do trajeto;4;entre 30 e 39 minutos
+q51;byte;%8.0g;LABF;duração do trajeto;5;entre 40 e 49 minutos
+q51;byte;%8.0g;LABF;duração do trajeto;6;entre 50 e 59 minutos
+q51;byte;%8.0g;LABF;duração do trajeto;7;60 minutos ou mais
+q52;int;%8.0g;q52;curso/escola;1;sim
+q52;int;%8.0g;q52;curso/escola;2;não
+q52;int;%8.0g;q52;curso/escola;888;não quis informar
+q53;byte;%8.0g;LABI;como faz trajeto curso/escola;1;sim, todo o trajeto
+q53;byte;%8.0g;LABI;como faz trajeto curso/escola;2;sim, parte do trajeto
+q53;byte;%8.0g;LABI;como faz trajeto curso/escola;3;não
+q54;byte;%8.0g;LABF;duração trajeto curso/escola;1;menos que 10 minutos
+q54;byte;%8.0g;LABF;duração trajeto curso/escola;2;entre 10 e 19 minutos
+q54;byte;%8.0g;LABF;duração trajeto curso/escola;3;entre 20 e 29 minutos
+q54;byte;%8.0g;LABF;duração trajeto curso/escola;4;entre 30 e 39 minutos
+q54;byte;%8.0g;LABF;duração trajeto curso/escola;5;entre 40 e 49 minutos
+q54;byte;%8.0g;LABF;duração trajeto curso/escola;6;entre 50 e 59 minutos
+q54;byte;%8.0g;LABF;duração trajeto curso/escola;7;60 minutos ou mais
+q55;byte;%8.0g;q55;faxina;1;eu sozinho
+q55;byte;%8.0g;q55;faxina;2;eu com outra pessoa
+q55;byte;%8.0g;q55;faxina;3;outra pessoa
+q56;byte;%8.0g;q56;parte pesada;1;o(a) sr(a)
+q56;byte;%8.0g;q56;parte pesada;2;outra pessoa
+q56;byte;%8.0g;q56;parte pesada;3;ambos
+r149;int;%8.0g;r149;quantos dias de faxina na semana;555;menos de uma vez por semana
+r149;int;%8.0g;r149;quantos dias de faxina na semana;888;não quis responder
+r150_hh;int;%8.0g;LABJ;tempo de faxina/ horas;888;não quis responder
+r150_mm;int;%8.0g;LABJ;tempo de faxina/ minutos;888;não quis responder
+q59a;byte;%8.0g;q59a;quantas horas assiste tv / dia;1;menos de 1 hora
+q59a;byte;%8.0g;q59a;quantas horas assiste tv / dia;2;entre 1 e 2 horas
+q59a;byte;%8.0g;q59a;quantas horas assiste tv / dia;3;entre 2 e 3 horas
+q59a;byte;%8.0g;q59a;quantas horas assiste tv / dia;4;entre 3 e 4 horas
+q59a;byte;%8.0g;q59a;quantas horas assiste tv / dia;5;entre 4 e 5 horas
+q59a;byte;%8.0g;q59a;quantas horas assiste tv / dia;6;entre 5 e 6 horas
+q59a;byte;%8.0g;q59a;quantas horas assiste tv / dia;7;mais de 6 horas
+q59a;byte;%8.0g;q59a;quantas horas assiste tv / dia;8;não assiste televisão
+q59b;int;%8.0g;q59b;uso de computador, tablet ou celular no tempo livre;1;sim
+q59b;int;%8.0g;q59b;uso de computador, tablet ou celular no tempo livre;2;não
+q59b;int;%8.0g;q59b;uso de computador, tablet ou celular no tempo livre;777;não sabe
+q59c;byte;%8.0g;q59c;em média, este uso do computador, tablet ou celular;1;menos de 1 hora
+q59c;byte;%8.0g;q59c;em média, este uso do computador, tablet ou celular;2;entre 1 e 2 horas
+q59c;byte;%8.0g;q59c;em média, este uso do computador, tablet ou celular;3;entre 2 e 3 horas
+q59c;byte;%8.0g;q59c;em média, este uso do computador, tablet ou celular;4;entre 3 e 4 horas
+q59c;byte;%8.0g;q59c;em média, este uso do computador, tablet ou celular;5;entre 4 e 5 horas
+q59c;byte;%8.0g;q59c;em média, este uso do computador, tablet ou celular;6;entre 5 e 6 horas
+q59c;byte;%8.0g;q59c;em média, este uso do computador, tablet ou celular;7;mais de 6 horas
+q60;byte;%8.0g;q60;fumante;1;sim, diariamente
+q60;byte;%8.0g;q60;fumante;2;sim, mas não diariamente
+q60;byte;%8.0g;q60;fumante;3;não
+q61;int;%8.0g;LABK;cigarros diário;3;não
+q61a;int;%8.0g;LABK;cigarros semanal;3;não
+q61_fx;int;%8.0g;LABL;cigarros diário (agrupamento em faixas);1;01 a 04
+q61_fx;int;%8.0g;LABL;cigarros diário (agrupamento em faixas);2;05 a 09
+q61_fx;int;%8.0g;LABL;cigarros diário (agrupamento em faixas);3;10 a 14
+q61_fx;int;%8.0g;LABL;cigarros diário (agrupamento em faixas);4;15 a 19
+q61_fx;int;%8.0g;LABL;cigarros diário (agrupamento em faixas);5;20 a 29
+q61_fx;int;%8.0g;LABL;cigarros diário (agrupamento em faixas);6;30 a 39
+q61_fx;int;%8.0g;LABL;cigarros diário (agrupamento em faixas);7;40 ou mais
+q61_fx;int;%8.0g;LABL;cigarros diário (agrupamento em faixas);888;não sabe/não quis responder
+q61a_fx;int;%8.0g;LABL;cigarros semanal (agrupamento em faixas);1;01 a 04
+q61a_fx;int;%8.0g;LABL;cigarros semanal (agrupamento em faixas);2;05 a 09
+q61a_fx;int;%8.0g;LABL;cigarros semanal (agrupamento em faixas);3;10 a 14
+q61a_fx;int;%8.0g;LABL;cigarros semanal (agrupamento em faixas);4;15 a 19
+q61a_fx;int;%8.0g;LABL;cigarros semanal (agrupamento em faixas);5;20 a 29
+q61a_fx;int;%8.0g;LABL;cigarros semanal (agrupamento em faixas);6;30 a 39
+q61a_fx;int;%8.0g;LABL;cigarros semanal (agrupamento em faixas);7;40 ou mais
+q61a_fx;int;%8.0g;LABL;cigarros semanal (agrupamento em faixas);888;não sabe/não quis responder
+q62;int;%8.0g;q62;idade inÍcio (anos);777;não lembra
+q63;byte;%8.0g;q63;tentou parar;1;sim
+q63;byte;%8.0g;q63;tentou parar;2;não
+q64;byte;%8.0g;q64;ex-fumante;1;sim, diariamente
+q64;byte;%8.0g;q64;ex-fumante;2;sim, mas não diariamente
+q64;byte;%8.0g;q64;ex-fumante;3;não
+q67;int;%8.0g;q67;contato c/ fumo em casa;1;sim
+q67;int;%8.0g;q67;contato c/ fumo em casa;2;não
+q67;int;%8.0g;q67;contato c/ fumo em casa;888;não quis informar
+q68;int;%8.0g;q68;contato c/ fumo no trabalho;1;sim
+q68;int;%8.0g;q68;contato c/ fumo no trabalho;2;não
+q68;int;%8.0g;q68;contato c/ fumo no trabalho;888;não quis informar
+r157;int;%8.0g;r157;trabalha em local fechado;1;sim
+r157;int;%8.0g;r157;trabalha em local fechado;2;não
+r157;int;%8.0g;r157;trabalha em local fechado;888;não quis informar
+q69;int;%8.0g;q69;cor;1;branca
+q69;int;%8.0g;q69;cor;2;preta
+q69;int;%8.0g;q69;cor;3;amarela
+q69;int;%8.0g;q69;cor;4;parda
+q69;int;%8.0g;q69;cor;5;indígena
+q69;int;%8.0g;q69;cor;777;não sabe
+q69;int;%8.0g;q69;cor;888;não quis informar
+q69_ou;str31;%31s;q69;cor - outra;888;não quis informar
+q70;byte;%8.0g;q70;outro fone;1;sim
+q70;byte;%8.0g;q70;outro fone;2;não
+q71;byte;%8.0g;q71;quantos;2;2 linhas
+q71;byte;%8.0g;q71;quantos;3;3 linhas
+q71;byte;%8.0g;q71;quantos;4;4 linhas
+q71;byte;%8.0g;q71;quantos;5;5 linhas
+q74;int;%8.0g;q74;estado de saúde;1;muito bom
+q74;int;%8.0g;q74;estado de saúde;2;bom
+q74;int;%8.0g;q74;estado de saúde;3;regular
+q74;int;%8.0g;q74;estado de saúde;4;ruim
+q74;int;%8.0g;q74;estado de saúde;5;muito ruim
+q74;int;%8.0g;q74;estado de saúde;777;não sabe
+q74;int;%8.0g;q74;estado de saúde;888;não quis informar
+q75;int;%8.0g;LABM;pressão alta;1;sim
+q75;int;%8.0g;LABM;pressão alta;2;não
+q75;int;%8.0g;LABM;pressão alta;777;não lembra
+r203;int;%8.0g;r203;médico receitou medicamento pressão alta;1;sim
+r203;int;%8.0g;r203;médico receitou medicamento pressão alta;2;não
+r203;int;%8.0g;r203;médico receitou medicamento pressão alta;777;não lembra
+r129;int;%8.0g;r129;medicamento;1;sim
+r129;int;%8.0g;r129;medicamento;2;não
+r129;int;%8.0g;r129;medicamento;777;não sabe
+r129;int;%8.0g;r129;medicamento;888;não quis responder
+r130;int;%8.0g;LABN;onde consegue medicação pressão;1;unidade de saude do SUS
+r130;int;%8.0g;LABN;onde consegue medicação pressão;2;Farmácia Popular
+r130;int;%8.0g;LABN;onde consegue medicação pressão;3;outro lugar
+r130;int;%8.0g;LABN;onde consegue medicação pressão;777;não sabe
+r130;int;%8.0g;LABN;onde consegue medicação pressão;888;não quis responder
+r130a;int;%8.0g;LABN;onde consegue medicação pressão;1;unidade de saude do SUS
+r130a;int;%8.0g;LABN;onde consegue medicação pressão;2;Farmácia Popular do Governo Federal
+r130a;int;%8.0g;LABN;onde consegue medicação pressão;3;outro lugar (farmácia privada/particular, drogaria)
+r130a;int;%8.0g;LABN;onde consegue medicação pressão;777;não sabe
+r130a;int;%8.0g;LABN;onde consegue medicação pressão;888;não quis responder
+q76;int;%8.0g;LABM;diabetes;1;sim
+q76;int;%8.0g;LABM;diabetes;2;não
+q76;int;%8.0g;LABM;diabetes;777;não lembra
+r138;int;%8.0g;r138;diabetes apenas na gravidez;1;sim
+r138;int;%8.0g;r138;diabetes apenas na gravidez;2;não
+r138;int;%8.0g;r138;diabetes apenas na gravidez;3;nunca engravidou
+r138;int;%8.0g;r138;diabetes apenas na gravidez;777;não lembra
+r202;int;%8.0g;r202;idade do ínicio do diabetes;777;não sabe / não lembra
+r204;int;%8.0g;r204;médico receitou medicamento diabetes;1;sim
+r204;int;%8.0g;r204;médico receitou medicamento diabetes;2;não
+r204;int;%8.0g;r204;médico receitou medicamento diabetes;777;não lembra
+r133a;int;%8.0g;LABO;comprimido diabetes;1;sim
+r133a;int;%8.0g;LABO;comprimido diabetes;2;não
+r133a;int;%8.0g;LABO;comprimido diabetes;777;não sabe
+r133a;int;%8.0g;LABO;comprimido diabetes;888;não quis responder
+r134c;int ;%8.0g;LABN;onde consegue comprimido diabetes;1;unidade de saúde do sus
+r134c;int ;%8.0g;LABN;onde consegue comprimido diabetes;2;farmácia popular do governo federal
+r134c;int ;%8.0g;LABN;onde consegue comprimido diabetes;3;outro lugar (farmácia privada/particular, drogaria
+r134c;int ;%8.0g;LABN;onde consegue comprimido diabetes;777;não sabe
+r134c;int ;%8.0g;LABN;onde consegue comprimido diabetes;888;não quis responder
+r133b;int ;%8.0g;LABO;insulina diabetes;1;sim
+r133b;int ;%8.0g;LABO;insulina diabetes;2;não
+r133b;int ;%8.0g;LABO;insulina diabetes;777;não sabe
+r133b;int ;%8.0g;LABO;insulina diabetes;888;não quis responder
+r134b;int ;%8.0g;LABN;onde consegue insulina diabetes;1;unidade de saúde do sus
+r134b;int ;%8.0g;LABN;onde consegue insulina diabetes;2;farmácia popular do governo federal
+r134b;int ;%8.0g;LABN;onde consegue insulina diabetes;3;outro lugar (farmácia privada/particular, drogaria
+r134b;int ;%8.0g;LABN;onde consegue insulina diabetes;777;não sabe
+r134b;int ;%8.0g;LABN;onde consegue insulina diabetes;888;não quis responder
+q78;int ;%8.0g;q78;colesterol ou triglicerides;1;sim
+q78;int ;%8.0g;q78;colesterol ou triglicerides;2;não
+q78;int ;%8.0g;q78;colesterol ou triglicerides;777;não sabe/não lembra
+q79a;int ;%8.0g;LABP;papanicolau;1;sim
+q79a;int ;%8.0g;LABP;papanicolau;2;não
+q79a;int ;%8.0g;LABP;papanicolau;777;não sabe
+q80;int ;%8.0g;LABQ;tempo;1;menos de 1 ano
+q80;int ;%8.0g;LABQ;tempo;2;entre 1 e 2 anos
+q80;int ;%8.0g;LABQ;tempo;3;entre 2 e 3 anos
+q80;int ;%8.0g;LABQ;tempo;4;entre 3 e 5 anos
+q80;int ;%8.0g;LABQ;tempo;5;5 anos ou mais
+q80;int ;%8.0g;LABQ;tempo;777;não lembra
+q81;int ;%8.0g;LABP;mamografia;1;sim
+q81;int ;%8.0g;LABP;mamografia;2;não
+q81;int ;%8.0g;LABP;mamografia;777;não sabe
+q82;int ;%8.0g;LABQ;tempo;1;menos de 1 ano
+q82;int ;%8.0g;LABQ;tempo;2;entre 1 e 2 anos
+q82;int ;%8.0g;LABQ;tempo;3;entre 2 e 3 anos
+q82;int ;%8.0g;LABQ;tempo;4;entre 3 e 5 anos
+q82;int ;%8.0g;LABQ;tempo;5;5 ou mais anos
+q82;int ;%8.0g;LABQ;tempo;777;não lembra
+q88;int ;%8.0g;q88;posse de plano de saúde;1;sim, apenas 1
+q88;int ;%8.0g;q88;posse de plano de saúde;2;sim, mais de um
+q88;int ;%8.0g;q88;posse de plano de saúde;3;não
+q88;int ;%8.0g;q88;posse de plano de saúde;888;não quis informar
+r135;int ;%8.0g;LABR ;nos últimos 12 meses foi multado?;1;sim
+r135;int ;%8.0g;LABR ;nos últimos 12 meses foi multado?;2;não
+r135;int ;%8.0g;LABR ;nos últimos 12 meses foi multado?;777;não lembra
+r135;int ;%8.0g;LABR ;nos últimos 12 meses foi multado?;888;não quis responder
+r136;int;%8.0g;r136;qual o local;1;dentro da cidade (via urbana)
+r136;int;%8.0g;r136;qual o local;2;rodovia
+r136;int;%8.0g;r136;qual o local;3;ambos
+r136;int;%8.0g;r136;qual o local;777;não lembra
+r136;int;%8.0g;r136;qual o local;888;não quis responder
+r153;int;%8.0g;LABR;passou em blitz;1;sim
+r153;int;%8.0g;LABR;passou em blitz;2;não
+r153;int;%8.0g;LABR;passou em blitz;777;não lembra
+r153;int;%8.0g;LABR;passou em blitz;888;não quis responder
+r137a;int;%8.0g;LABR;parado em blitz;1;sim
+r137a;int;%8.0g;LABR;parado em blitz;2;não
+r137a;int;%8.0g;LABR;parado em blitz;777;não lembra
+r137a;int;%8.0g;LABR;parado em blitz;888;não quis responder
+r154;int;%8.0g;LABR;convidado bafometro;1;sim
+r154;int;%8.0g;LABR;convidado bafometro;2;não
+r154;int;%8.0g;LABR;convidado bafometro;777;não lembra
+r154;int;%8.0g;LABR;convidado bafometro;888;não quis responder
+r155;int;%8.0g;LABR;fez o bafometro;1;sim
+r155;int;%8.0g;LABR;fez o bafometro;2;não
+r155;int;%8.0g;LABR;fez o bafometro;777;não lembra
+r155;int;%8.0g;LABR;fez o bafometro;888;não quis responder
+r156;int;%8.0g;LABR;deu positivo;1;sim
+r156;int;%8.0g;LABR;deu positivo;2;não
+r156;int;%8.0g;LABR;deu positivo;777;não lembra
+r156;int;%8.0g;LABR;deu positivo;888;não quis responder
+r900;int;%8.0g;r900;recebe bolsa família;1;sim
+r900;int;%8.0g;r900;recebe bolsa família;2;não
+r900;int;%8.0g;r900;recebe bolsa família;777;não sabe
+obs_r900;str181;%181s;r900;(observações) recebe bolsa família;777;não sabe
+d1;int;%8.0g ;d1;nos últimos 30 dias, ficou sem a insulina;1;sim
+d1;int;%8.0g ;d1;nos últimos 30 dias, ficou sem a insulina;2;não
+d1;int;%8.0g ;d1;nos últimos 30 dias, ficou sem a insulina;777;não sabe
+d1;int;%8.0g ;d1;nos últimos 30 dias, ficou sem a insulina;888;não quis responder
+d2;int;%8.0g ;d2;por que ficou sem a insulina;1;não tinha/estava em falta no posto de saúde/unidade de saúde/secretaria de saúde/sus
+d2;int;%8.0g ;d2;por que ficou sem a insulina;2;porque não tinha dinheiro para comprar
+d2;int;%8.0g ;d2;por que ficou sem a insulina;3;esqueceu/não quis tomar/comprar/buscar
+d2;int;%8.0g ;d2;por que ficou sem a insulina;4;outro motivo
+d2;int;%8.0g ;d2;por que ficou sem a insulina;777;não sabe
+d2;int;%8.0g ;d2;por que ficou sem a insulina;888;não quis responder
+d3 ;int;%8.0g ;d3 ;nos últimos 30 dias, ficou sem os comprimidos para controlar o diabetes;1;sim
+d3 ;int;%8.0g ;d3 ;nos últimos 30 dias, ficou sem os comprimidos para controlar o diabetes;2;não
+d3 ;int;%8.0g ;d3 ;nos últimos 30 dias, ficou sem os comprimidos para controlar o diabetes;777;não sabe
+d3 ;int;%8.0g ;d3 ;nos últimos 30 dias, ficou sem os comprimidos para controlar o diabetes;888;não quis responder
+d4;byte;%8.0g ;d4;por que ficou sem este medicamento (comprimido diabetes);1;não tinha/estava em falta no posto de saúde/unidade de saúde/secretaria de saúde/sus
+d4;byte;%8.0g ;d4;por que ficou sem este medicamento (comprimido diabetes);2;porque não tinha dinheiro para comprar
+d4;byte;%8.0g ;d4;por que ficou sem este medicamento (comprimido diabetes);3;esqueceu/não quis tomar/comprar/buscar
+d4;byte;%8.0g ;d4;por que ficou sem este medicamento (comprimido diabetes);4;outro motivo
+d4;byte;%8.0g ;d4;por que ficou sem este medicamento (comprimido diabetes);777;não sabe
+d4;byte;%8.0g ;d4;por que ficou sem este medicamento (comprimido diabetes);888;não quis responder
+d5;int;%8.0g ;d5;algum outro medicamento, deveria estar usando, nos últimos 30 dias, para a diabe;1;sim
+d5;int;%8.0g ;d5;algum outro medicamento, deveria estar usando, nos últimos 30 dias, para a diabe;2;não
+d5;int;%8.0g ;d5;algum outro medicamento, deveria estar usando, nos últimos 30 dias, para a diabe;777;não sabe
+d5;int;%8.0g ;d5;algum outro medicamento, deveria estar usando, nos últimos 30 dias, para a diabe;888;não quis responder
+d6;int;%8.0g ;d6;por que ficou sem este medicamento (outro medicamento diabetes);1;não tinha/estava em falta no posto de saúde/unidade de saúde/secretaria de saúde/sus
+d6;int;%8.0g ;d6;por que ficou sem este medicamento (outro medicamento diabetes);2;porque não tinha dinheiro para comprar
+d6;int;%8.0g ;d6;por que ficou sem este medicamento (outro medicamento diabetes);3;esqueceu/não quis tomar/comprar/buscar
+d6;int;%8.0g ;d6;por que ficou sem este medicamento (outro medicamento diabetes);4;outro motivo
+d6;int;%8.0g ;d6;por que ficou sem este medicamento (outro medicamento diabetes);777;não sabe
+d6;int;%8.0g ;d6;por que ficou sem este medicamento (outro medicamento diabetes);888;não quis responder
+moradores;byte;%8.0g ;d6;moradores;888;não quis responder
+adultos;byte;%8.0g ;d6;adultos;888;não quis responder
+obs;str244;%244s ;d6;observações;888;não quis responder
+pesorake;double;%14.2fc;d6;pesorake;888;não quis responder
+fet;float;%12.0g;FET;Faixa etária;1;18 a 24
+fet;float;%12.0g;FET;Faixa etária;2;25 a 34 anos
+fet;float;%12.0g;FET;Faixa etária;3;35 a 44 anos
+fet;float;%12.0g;FET;Faixa etária;4;45 a 54 anos
+fet;float;%12.0g;FET;Faixa etária;5;55 a 64 anos
+fet;float;%12.0g;FET;Faixa etária;6;65 anos e mais
+cat_esc;float;%9.0g;FET;Categorias (idade | sexo) para imputação da escolaridade;6;65 anos e mais
+fesc;float;%11.0g;FESC;Faixa de escolaridade;1;0 a 8 anos
+fesc;float;%11.0g;FESC;Faixa de escolaridade;2;9 a 11 anos
+fesc;float;%11.0g;FESC;Faixa de escolaridade;3;12 anos e mais
+fxesc;float;%14.0g;FXESC;Faixa de escolaridade (RAKE);1;0 a 7,9 anos
+fxesc;float;%14.0g;FXESC;Faixa de escolaridade (RAKE);2;8 a 10,9 anos
+fxesc;float;%14.0g;FXESC;Faixa de escolaridade (RAKE);3;11 a 14,9 anos
+fxesc;float;%14.0g;FXESC;Faixa de escolaridade (RAKE);4;15 a 20 anos
+q9_i;float;%9.0g;LABB;peso (kg) - valores imputados;4;15 a 20 anos
+q11_i;int;%8.0g;LABB;altura (cm) - valores imputados;4;15 a 20 anos
+pinterno;float;%9.0g;LABB;altura (cm) - valores imputados;4;15 a 20 anos
