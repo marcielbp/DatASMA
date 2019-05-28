@@ -1,0 +1,67 @@
+#!/bin/bash
+#iconv -f WINDOWS-1254 -t UTF-8//TRANSLIT Vigitel-2015-peso-rake.csv -o Vigitel-2015-UTF-8.csv
+echo "Replacing special characters:"
+#sed -in 's|á|a|gI; s|ã|a|gI; s|â|a|gI; s|é|e|gI; s|ẽ|e|gI; s|ê|e|gI; s|í|i|gI; s|ó|o|gI; s|õ|o|gI; s|ô|o|gI; s|ú|u|gI; s|º|o|gI; s|ç|c|gI;' "$1"
+#sed -i 's|[á,ã,ã,à,â]|a|gI;s|[ó,ô,õ]|o|gI;s|[í,ì]|i|gI;s|[é,ê,ẽ]|e|gI;s|[ú,ù]|u|gI;s|[ç]|c|gI;s|[º]|o|gI' "$1"
+sed -in 'y|ãáâẽéêíõóôúçÃÁâẼÉÊÍÕÓÔÚÇº|aaaeeeioooucAAAEEEIOOOUCo|' "$1"
+#sed -i 's|ã|a|gI' "$1"
+:<<'END'
+sed -in 's|\0xc2\0xb0|o|gI' "$1"
+sed -in 's|\0xc2\0xba|o|gI' "$1"
+sed -in 's|\0xc3\0x80|A|gI' "$1"
+sed -in 's|\0xc3\0x81|A|gI' "$1"
+sed -in 's|\0xc3\0x82|A|gI' "$1"
+sed -in 's|\0xc3\0x83|A|gI' "$1"
+sed -in 's|\0xc3\0x84|A|gI' "$1"
+sed -in 's|\0xc3\0x85|A|gI' "$1"
+sed -in 's|\0xc3\0x86|A|gI' "$1"
+sed -in 's|\0xc3\0x87|C|gI' "$1"
+sed -in 's|\0xc3\0x87|C|gI' "$1"
+sed -in 's|\0xc3\0x88|E|gI' "$1"
+sed -in 's|\0xc3\0x89|E|gI' "$1"
+sed -in 's|\0xc3\0x8a|E|gI' "$1"
+sed -in 's|\0xc3\0x8b|E|gI' "$1"
+sed -in 's|\0xc3\0x8c|I|gI' "$1"
+sed -in 's|\0xc3\0x8d|I|gI' "$1"
+sed -in 's|\0xc3\0x8e|I|gI' "$1"
+sed -in 's|\0xc3\0x8f|I|gI' "$1"
+sed -in 's|\0xc3\0x94|O|gI' "$1"
+sed -in 's|\0xc3\0x95|O|gI' "$1"
+sed -in 's|\0xc3\0x99|U|gI' "$1"
+sed -in 's|\0xc3\0x9a|U|gI' "$1"
+sed -in 's|\0xc3\0x9b|U|gI' "$1"
+sed -in 's|\0xc3\0x9c|U|gI' "$1"
+sed -in 's|\0xc3\0xa1|a|gI' "$1"
+sed -in 's|\0xc3\0xa2|a|gI' "$1"
+sed -in 's|\0xc3\0xa3|a|gI' "$1"
+sed -in 's|\0xc3\0xa4|a|gI' "$1"
+sed -in 's|\0xc3\0xa5|a|gI' "$1"
+sed -in 's|\0xc3\0xa7|c|gI' "$1"
+sed -in 's|\0xc3\0xa8|e|gI' "$1"
+sed -in 's|\0xc3\0xa9|e|gI' "$1"
+sed -in 's|\0xc3\0xaa|e|gI' "$1"
+sed -in 's|\0xc3\0xab|e|gI' "$1"
+sed -in 's|\0xc3\0xac|i|gI' "$1"
+sed -in 's|\0xc3\0xad|i|gI' "$1"
+sed -in 's|\0xc3\0xae|i|gI' "$1"
+sed -in 's|\0xc3\0xaf|i|gI' "$1"
+sed -in 's|\0xc3\0xb0|o|gI' "$1"
+sed -in 's|\0xc3\0xb1|n|gI' "$1"
+sed -in 's|\0xc3\0xb2|o|gI' "$1"
+sed -in 's|\0xc3\0xb3|o|gI' "$1"
+sed -in 's|\0xc3\0xb4|o|gI' "$1"
+sed -in 's|\0xc3\0xb5|o|gI' "$1"
+sed -in 's|\0xc3\0xb6|o|gI' "$1"
+sed -in 's|\0xc3\0xb9|u|gI' "$1"
+sed -in 's|\0xc3\0xba|u|gI' "$1"
+sed -in 's|\0xc3\0xbb|u|gI' "$1"
+END
+echo "done!"
+#iconv -f utf8 -t ascii||TRANSLIT test1
+
+#0xc3 0x87 #Ç
+#0xc3 0xa7 #ç
+
+#sed 's|\xC2\xA2|cent|g'
+
+
