@@ -228,3 +228,9 @@ D3JS ANIMAÇÃO
 https://github.com/d3/d3/wiki/Gallery
 Asma: sintomas, tratamento, causa...
 https://www.google.com/amp/s/www.minhavida.com.br/amp/saude/temas/asma
+
+Software para converter DBC (formato proprietario DATASUS) para DBF
+https://github.com/eaglebh/blast-dbf
+
+Software para converter DBF para CSV em Python
+https://github.com/greatjapa/dbc2csv
