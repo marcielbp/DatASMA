@@ -234,3 +234,6 @@ https://github.com/eaglebh/blast-dbf
 
 Software para converter DBF para CSV em Python
 https://github.com/greatjapa/dbc2csv
+
+create custom map
+https://datamaps.co/editor/brazil/edit-map/
