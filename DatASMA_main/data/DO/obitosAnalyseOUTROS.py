@@ -54,20 +54,27 @@ numObRespL2 = obL2.count()[0]
 #CID10_10
 obResp = causaBase[causaBase['CAUSABAS'].str.contains('J')]
 obAsma = causaBase[causaBase['CAUSABAS'].str.contains('J45')]
+obBronquite = causaBase[causaBase['CAUSABAS'].str.contains('J2')]
 numObResp = obResp.count()[0]
 numObAsma = obAsma.count()[0]
+numObBronquite = obBronquite.count()[0]
 
 agesAsma = dataSet['IDADE'][causaBase['CAUSABAS'].str.contains('J45')]
-logic =  np.logical_and(agesAsma>400,agesAsma<500)
-agesAsmaCount = agesAsma[logic]-400
+agesAsmaCount = agesAsma[agesAsma>400]-400
+agesAsmaCountBaby = agesAsma[agesAsma<=400]-400
 #agesAsmaCount = agesAsma[logic]# and (agesAsma<500)
 #print(agesAsmaCount)
-# print(Counter(causaBase['CAUSABAS']).most_common())
+obDoenResp = causaBase['CAUSABAS'][causaBase['CAUSABAS'].str.contains('J')]
+print(Counter(obDoenResp).most_common(15))
+#print(Counter(causaBase['CAUSABAS'].str.contains('J')).most_common(15))
 print("Obitos totais", numOb)
 print("Obitos doencas Resp:", numObResp)
 print("Obitos Asma:", numObAsma)
+print("Obitos Bronquite:", numObBronquite)
+print(agesAsma[agesAsma<401])
 #print("Obitos Asma LA:", numObRespLA)
-plt.hist(agesAsmaCount,label='Idade',rwidth=0.85,color='r')
+plt.hist(agesAsmaCount,label='Categoria',rwidth=0.85,color='r')
+plt.hist(agesAsmaCountBaby,label='Idade',rwidth=0.85,color='b')
 plt.legend(loc='upper right')
 plt.title('Histograma de Óbitos por ASMA por IDADE')
 plt.xlabel('Idade')
