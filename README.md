@@ -5,7 +5,7 @@ Datathon – Equipe DATAsma
 
 # Features
 
-## Sistema de visualização de dados de óbitos por ASMA nos anos de 2016 e 2017
+## StatsAsma - Sistema de visualização de dados de óbitos por ASMA nos anos de 2016 e 2017
 Link do repositório em https://github.com/marcielbp/DatASMA/tree/master/DatASMA_main/infoObitos
 Código implementado em [Python 3.7](https://www.python.org/)
 
